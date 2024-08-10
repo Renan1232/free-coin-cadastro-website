@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    font-family: 'Baloo 2';
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 180px;
+    height: 108px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.tittle {
+    font-weight: 900;
+    font-size: 24px;
+    color: #2c3e50;
+    text-align: center;
+    line-height: 130%;
+}
+
+.description {
+    font-size: 14px;
+    color: #2c3e50;
+    text-align: center;
+    line-height: 130%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.forms {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center */
+    padding: 0px 15px 0px 15px;
+}
+
+input {
+    width: 100%;
+    max-width: 360px;
+    min-width: 350px;
+    height: 48px;
+    border-radius: 12px;
+    border: solid 1px #e9ebff;
+    margin-bottom: 46px;
+    display: flex;
+    flex-direction: column;
+    ;
+}
+
+input::placeholder {
+    color: #6a6a6a;
+    font-size: 14px;
+    font-weight: 400;
+    padding-left: 16px;
+}
+
+#profissao {
+    margin-bottom: 20px;
+}
+
+button {
+    width: 100%;
+    max-width: 360px;
+    height: 54px;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    background-color: #f9d266;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+.forms label {
+    font-size: 14px;
+    color: #000000;
+    margin-bottom: 4px;
+    font-weight: 600;
+    justify-content: flex-start;
+}
+
+@media screen and (min-width: 744px) {
+    /* CSS */
+
+    main {
+        padding: 80px;
+    }
+
+    img {
+        width: 240px;
+        height: 144px; 
+        margin-top: 80px;
+        margin-bottom: 40px;
+    }
+
+    .tittle {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+
+    .description {
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    .forms {
+        width: 584px;
+    }
+
+    input {
+        width: 100%;
+        max-width: 584px;
+        min-width: 484px;
+        height: 54px;
+        margin-bottom: 20px;
+    }
+
+    button {
+        width: 100%;
+        max-width: 584px;
+        height: 54px;
+        font-size: 14px;
+    }
+
+}
